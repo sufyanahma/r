@@ -771,7 +771,7 @@ def menu_select():
 
 		                                                     d=json.loads(q)
 
-		                                                    if 'www.facebook.com' in d['error_msg']:
+		                                                     if 'www.facebook.com' in d['error_msg']:
 
 		                                                        print("\033[1;96m[CheckPoint] "+uid+" | "+pass7)
 
